@@ -9,7 +9,7 @@ import {
 
 const VerticalMenuIcon = () => {
   return (
-    <div className="flex flex-col items-center w-10">
+    <div className="flex flex-col items-center w-8 bg-white">
       <div className="p-2 text-gray-500 border border-gray-300">
         <BsChatLeft />
       </div>
