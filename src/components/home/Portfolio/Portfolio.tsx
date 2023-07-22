@@ -9,10 +9,10 @@ const Portfolio = () => {
 
   return (
     <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6 bg-[#312729]">
-      <div className="flex items-center justify-center w-auto lg:w-2/3 2xl:w-1/2 h-20 lg:h-auto bg-[#404040] text-white">
+      <div className="flex items-center justify-center w-auto lg:w-2/3 2xl:w-1/2 h-20 lg:h-[600px] xl:h-[520px] bg-[#404040] text-white">
         <h1 className="text-2xl md:text-3xl lg:text-2xl">My Portfolio</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-auto h-auto xl:w-full lg:h-full">
         {portfolios.map((portfolio) => (
           <div key={portfolio.title} className="bg-[#382E35] py-4 px-8 lg:px-4">
             {renderIcon(portfolio.iconName)}
