@@ -30,7 +30,10 @@ const HamburgerMenu = () => {
           <div className="flex justify-between">
             <div className="flex flex-col gap-2">
               {menus.map((menu) => (
-                <div className="flex items-center gap-4 pl-4 cursor-pointer">
+                <div
+                  key={menu}
+                  className="flex items-center gap-4 pl-4 cursor-pointer"
+                >
                   <h4 className="text-md">{menu}</h4>
                   <BsChevronDown />
                 </div>

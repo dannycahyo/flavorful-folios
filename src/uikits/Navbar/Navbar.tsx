@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="flex-none" />
       <div className="hidden md:flex gap-8 text-right">
         {menus.map((menu) => (
-          <div className="flex items-center gap-2 cursor-pointer">
+          <div key={menu} className="flex items-center gap-2 cursor-pointer">
             <h3 className="text-lg">{menu}</h3>
             <BsChevronDown />
           </div>
