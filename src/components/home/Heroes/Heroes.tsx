@@ -15,11 +15,11 @@ const Heroes = () => {
         className="filter contrast-125 brightness-75"
       />
       <div className="absolute w-11/12 md:w-auto top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-center">
-        <h1
+        <h2
           className={`text-sm lg:text-xl xl:text-2xl font-bold text-white mb-4 ${inter.className}`}
         >
           Catering should be an experience
-        </h1>
+        </h2>
         <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
           We use only the finest and freshest ingredients
         </h1>
