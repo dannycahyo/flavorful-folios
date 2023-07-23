@@ -8,6 +8,7 @@ Welcome to Flavorful Folios, a catering personal website showcasing a delightful
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployment](#deployment)
+- [Containerization](#containerization)
 - [Lighthouse Report](#lighthouse-report)
 - [Tech Stack](#tech-stack)
 
@@ -85,6 +86,25 @@ vercel --prod
 ```
 
 Or we can directly deploy through Vercel's website by importing the project from GitHub.
+
+## Containerization
+
+Flavorful Folios can be easily containerized using Docker. Follow these steps to containerize your project:
+
+1. Install Docker on your machine.
+2. Build the Docker image.
+
+```bash
+docker build -t flavorful-folios .
+```
+
+3. Run the Docker container.
+
+```bash
+docker run -p 3000:3000 flavorful-folios
+```
+
+The website will be running at `http://localhost:3000`. Open your web browser and navigate to this URL to view the website.
 
 ## Lighthouse Report
 
