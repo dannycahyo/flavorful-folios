@@ -9,7 +9,11 @@ const HamburgerMenu = () => {
 
   return (
     <div>
-      <button onClick={() => setIsOpen(!isOpen)} className="mt-2">
+      <button
+        aria-label="hamburger menu button"
+        onClick={() => setIsOpen(!isOpen)}
+        className="mt-2"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
