@@ -12,6 +12,7 @@ const Heroes = () => {
         alt="Food Ingredients"
         fill
         objectFit="cover"
+        priority
         className="filter contrast-125 brightness-75"
       />
       <div className="absolute w-11/12 md:w-auto top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-center">
