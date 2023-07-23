@@ -14,10 +14,7 @@ const HomeScreen = () => {
       <Heroes />
       <CateringService />
       <Portfolio />
-      <div
-        className="hidden md:block fixed top-1/2 right-0 -translate-y-1/2"
-        style={{ zIndex: 10 }}
-      >
+      <div className="hidden md:block fixed top-1/2 right-0 -translate-y-1/2 z-10">
         <VerticalMenuIcon />
       </div>
     </div>

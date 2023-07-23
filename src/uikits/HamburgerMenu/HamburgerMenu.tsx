@@ -30,7 +30,7 @@ const HamburgerMenu = () => {
         </svg>
       </button>
       {isOpen ? (
-        <div className="absolute right-4 w-48 h-full py-2 mt-2 bg-red rounded-lg shadow-xl transition-all duration-300 ease-in-out transform translate-y-2">
+        <div className="absolute right-4 w-48 py-2 mt-2 bg-slate-50 rounded-lg shadow-xl transition-all duration-300 ease-in-out transform translate-y-2 z-20">
           <div className="flex justify-between">
             <div className="flex flex-col gap-2">
               {menus.map((menu) => (
