@@ -1,9 +1,15 @@
-import { CateringService, Heroes, Portfolio } from "@src/components/home";
+import {
+  CateringService,
+  Heroes,
+  HomePageMetaTags,
+  Portfolio,
+} from "@src/components/home";
 import { Navbar, VerticalMenuIcon } from "@src/uikits";
 
 const HomeScreen = () => {
   return (
     <div>
+      <HomePageMetaTags />
       <Navbar />
       <Heroes />
       <CateringService />

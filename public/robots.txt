@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://flavorful-folios.vercel.app/sitemap.xml
