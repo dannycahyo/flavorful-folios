@@ -25,6 +25,7 @@ const Navbar = () => {
         <input
           className="border-2 border-gray-400 rounded-md p-1"
           type="text"
+          aria-label="Search"
         />
       </div>
       <div className="flex items-center gap-4 md:hidden">
