@@ -70,16 +70,12 @@ Flavorful Folios can be easily deployed using Vercel, a platform optimized for N
 
 ```bash
 npm install -g vercel
-# or
-yarn global add vercel
 ```
 
 3. Build the production version of the project.
 
 ```bash
 npm run build
-# or
-yarn build
 ```
 
 4. Deploy the project using Vercel.
@@ -87,6 +83,8 @@ yarn build
 ```bash
 vercel --prod
 ```
+
+Or we can directly deploy through Vercel's website by importing the project from GitHub.
 
 ## Lighthouse Report
 
