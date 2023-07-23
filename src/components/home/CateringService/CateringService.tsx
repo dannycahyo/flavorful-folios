@@ -2,7 +2,7 @@ const CateringService = () => {
   return (
     <div className="flex justify-center items-center py-4 md:py-12">
       <div className="text-center w-4/5">
-        <h2 className="text-sm lg:text-xl xl:text-2xl font-bold mb-4 text-gray-500">
+        <h2 className="text-sm lg:text-xl xl:text-2xl font-bold mb-4 text-gray-800">
           Catering services in New York
         </h2>
         <h1 className="text-2xl sm:text-2xl lg:text-4xl xl:text-5xl font-bold text-blue-800">

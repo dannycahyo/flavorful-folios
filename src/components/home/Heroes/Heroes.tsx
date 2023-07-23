@@ -27,7 +27,10 @@ const Heroes = () => {
           At Sway catering we know that food is an important part of life. If
           the meals is not perfect, your event cannot be perfect.
         </p>
-        <button className="mt-8 px-2 md:px-4 py-2 md:py-3 bg-green-500 text-white text-sm md:text-xl rounded-xl">
+        <button
+          aria-label="Request a Quote"
+          className="mt-8 px-2 md:px-4 py-2 md:py-3 bg-green-600 text-white text-sm md:text-xl rounded-xl"
+        >
           Request a Quote
         </button>
       </div>

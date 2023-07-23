@@ -16,18 +16,18 @@ const Portfolio = () => {
         {portfolios.map((portfolio) => (
           <div key={portfolio.title} className="bg-[#382E35] py-4 px-8 lg:px-4">
             {renderIcon(portfolio.iconName)}
-            <h2 className="text-xl mt-6 text-[#F67C82] font-bold">
+            <h2 className="text-xl mt-6 text-rose-100 font-bold">
               {portfolio.title}
             </h2>
-            <p className="mt-2 text-sm text-[#8f5e76]">
+            <p className="mt-2 text-sm text-rose-300">
               {portfolio.description}
             </p>
           </div>
         ))}
       </div>
       <div className="p-4">
-        <div className="flex flex-col space-y-4 text-[#8f5e76]">
-          <h2 className="text-2xl text-[#F67C82] mt-2 lg:mt-6">Services</h2>
+        <div className="flex flex-col space-y-4 text-rose-300">
+          <h2 className="text-2xl text-rose-100 mt-2 lg:mt-6">Services</h2>
           <p className="text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
             tristique placerat in massa consectetur quisque nunc fames.
