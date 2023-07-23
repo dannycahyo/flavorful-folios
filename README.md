@@ -1,38 +1,127 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Flavorful Folios - Catering Personal Website
 
-## Getting Started
+Welcome to Flavorful Folios, a catering personal website showcasing a delightful portfolio and services. This project is built using Next.js, React, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Lighthouse Report](#lighthouse-report)
+- [Tech Stack](#tech-stack)
+
+## Introduction
+
+Flavorful Folios is a catering personal website that allows users to explore a diverse portfolio of catering services, discover the mission behind the culinary creations, and find information about the services provided. The website is designed to provide an immersive and visually appealing experience to potential clients and showcase the expertise of the catering business.
+
+## Installation
+
+To run the Flavorful Folios project locally, follow these steps:
+
+1. Clone the repository to your local machine.
+
+```bash
+git clone https://github.com/dannycahyo/flavorful-folios.git
+```
+
+2. Navigate to the project directory.
+
+```bash
+cd flavorful-folios
+```
+
+3. Install the dependencies.
+
+```bash
+npm install
+```
+
+## Usage
+
+To start the development server, use the following command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The development server will be running at `http://localhost:3000`. Open your web browser and navigate to this URL to view the website.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+To run the linting tool, use the following command:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+npm run lint
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+To run the storybook, use the following command:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm run storybook
+```
 
-## Learn More
+The storybook will be running at `http://localhost:6006`. Open your web browser and navigate to this URL to view the storybook.
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Flavorful Folios can be easily deployed using Vercel, a platform optimized for Next.js applications. Follow these steps to deploy your project:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Sign up for a Vercel account if you don't have one.
+2. Install the Vercel CLI globally on your machine.
 
-## Deploy on Vercel
+```bash
+npm install -g vercel
+# or
+yarn global add vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Build the production version of the project.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm run build
+# or
+yarn build
+```
+
+4. Deploy the project using Vercel.
+
+```bash
+vercel --prod
+```
+
+## Lighthouse Report
+
+Below is the Lighthouse report for Flavorful Folios, showing the performance, accessibility, best practices, and SEO scores:
+
+- Desktop Version Report
+
+![Desktop Lighthouse Report](https://res.cloudinary.com/du5jbmwz5/image/upload/v1690082659/Flavorful%20Folios%20Lighthouse%20Desktop%20Report.png)
+
+You can access the live Lighthouse report at [Desktop Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fflavorful-folios.vercel.app%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&utm_source=lh-chrome-ext).
+
+- Mobile Version Report
+
+![Mobile Lighthouse Report](https://res.cloudinary.com/du5jbmwz5/image/upload/v1690082801/Flavorful%20Folios%20Lighthouse%20Mobile%20Report.png)
+
+You can access the live Lighthouse report at [Mobile Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fflavorful-folios.vercel.app%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&utm_source=lh-chrome-ext).
+
+## Tech Stack
+
+### Next.js
+
+Next.js is a powerful and popular React framework for building server-side rendered (SSR) and static websites. It simplifies the creation of React applications by providing a seamless development experience and supporting various advanced features like server-side rendering, automatic code splitting, static site generation, and more. With Next.js, Flavorful Folios benefits from improved performance, SEO, and better user experience.
+
+### React
+
+React, a JavaScript library for building user interfaces, forms the core of Flavorful Folios. Its component-based architecture enables efficient code organization, reusability, and maintainability. With React's virtual DOM, the website efficiently updates and renders changes to user interactions, resulting in a smooth and responsive experience.
+
+### TypeScript
+
+TypeScript adds static typing to JavaScript, making Flavorful Folios more robust and scalable. By catching type-related errors during development, TypeScript helps maintain a reliable codebase, enhances developer productivity, and promotes code readability. The combination of TypeScript and React provides a powerful toolset for creating complex applications with confidence.
+
+### Tailwind CSS
+
+Tailwind CSS is a utility-first CSS framework that powers the design of Flavorful Folios. Its utility classes offer a practical and efficient approach to styling components, allowing developers to build custom and responsive designs with ease. Tailwind CSS fosters a consistent design language, accelerates development, and enhances the overall user experience.
+
+### Vercel
+
+Vercel is a cloud platform specialized for deploying and hosting modern web applications. It seamlessly integrates with Next.js, simplifying the deployment process for Flavorful Folios. With Vercel's powerful infrastructure, automatic scaling, and global CDN, the website enjoys lightning-fast loading times and reliable performance across the globe.
