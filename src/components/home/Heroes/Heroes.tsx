@@ -29,7 +29,7 @@ const Heroes = () => {
         </p>
         <button
           aria-label="Request a Quote"
-          className="mt-8 px-2 md:px-4 py-2 md:py-3 bg-green-600 text-white text-sm md:text-xl rounded-xl"
+          className="mt-8 px-2 md:px-4 py-2 md:py-3 bg-green-800 text-white text-sm md:text-xl rounded-xl"
         >
           Request a Quote
         </button>
